@@ -1,0 +1,9 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf Variales file, may include sensitive data
+*.tfvars
